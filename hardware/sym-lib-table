@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name DeeComponents)(type Legacy)(uri /workspace/kicad/my-kicad-library/components/DeeComponents.lib)(options "")(descr ""))
+  (lib (name ntp_tiny_matrix_clock-rescue)(type Legacy)(uri ${KIPRJMOD}/ntp_tiny_matrix_clock-rescue.lib)(options "")(descr ""))
+)
