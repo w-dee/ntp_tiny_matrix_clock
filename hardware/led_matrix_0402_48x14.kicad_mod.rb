@@ -50,5 +50,19 @@ pins.keys.sort.each do |key|
 	idx = idx + 1
 end
 
+STDERR.puts("")
+idx = 0
+pins.keys.sort.each do |key|
+	STDERR.puts("Text Label #{3350+idx*50} 10350 1    31   ~ 0")
+	STDERR.puts(key)
+	idx = idx + 1
+end
 
+STDERR.puts("")
+idx = 0
+pins.keys.sort.each do |key|
+	STDERR.puts("Text Label #{3350+idx*100} 17350 1    31   ~ 0")
+	STDERR.puts(key)
+	idx = idx + 1
+end
 

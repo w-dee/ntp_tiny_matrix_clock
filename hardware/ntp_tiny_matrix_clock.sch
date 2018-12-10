@@ -442,7 +442,7 @@ U 1 1 5BF3E3DA
 P 6700 6350
 F 0 "D5" V 6746 6271 50  0000 R CNN
 F 1 "Sillicon PN Junction" H 6900 6100 50  0000 R CNN
-F 2 "Diode_SMD:D_SOD-123" H 6700 6350 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-323" H 6700 6350 50  0001 C CNN
 F 3 "~" H 6700 6350 50  0001 C CNN
 	1    6700 6350
 	0    -1   -1   0   
@@ -765,9 +765,7 @@ Wire Wire Line
 	14750 1500 14100 1500
 Connection ~ 14100 1500
 Wire Wire Line
-	15100 1700 15100 1500
-Wire Wire Line
-	15100 1500 14750 1500
+	15300 1500 15100 1500
 Connection ~ 14750 1500
 Wire Wire Line
 	14750 1900 14750 2300
@@ -1749,103 +1747,92 @@ LCDSPI_CS
 Wire Wire Line
 	4100 4400 3450 4400
 $Comp
-L Connector_Generic:Conn_02x03_Odd_Even J10
+L Connector_Generic:Conn_02x04_Odd_Even J10
 U 1 1 5BF5C71E
 P 3650 7050
 F 0 "J10" H 3700 7450 50  0000 C CNN
 F 1 "Conn_02x04_Odd_Even" H 3700 7276 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_2x03_P2.54mm_Vertical_SMD" H 3650 7050 50  0001 C CNN
+F 2 "Connector_PinSocket_1.27mm:PinSocket_2x04_P1.27mm_Vertical_SMD" H 3650 7050 50  0001 C CNN
 F 3 "~" H 3650 7050 50  0001 C CNN
 	1    3650 7050
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x03_Odd_Even J6
+L Connector_Generic:Conn_02x04_Odd_Even J6
 U 1 1 5BF5C728
-P 1750 7050
-F 0 "J6" H 1800 7450 50  0000 C CNN
-F 1 "Conn_02x04_Odd_Even" H 1750 7550 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_2x03_P2.54mm_Vertical_SMD" H 1750 7050 50  0001 C CNN
-F 3 "~" H 1750 7050 50  0001 C CNN
-	1    1750 7050
+P 1750 7150
+F 0 "J6" H 1800 7550 50  0000 C CNN
+F 1 "Conn_02x04_Odd_Even" H 1750 7650 50  0000 C CNN
+F 2 "Connector_PinSocket_1.27mm:PinSocket_2x04_P1.27mm_Vertical_SMD" H 1750 7150 50  0001 C CNN
+F 3 "~" H 1750 7150 50  0001 C CNN
+	1    1750 7150
 	1    0    0    1   
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x03_Odd_Even J5
+L Connector_Generic:Conn_02x04_Odd_Even J5
 U 1 1 5BF5C732
 P 1750 7050
 F 0 "J5" H 1800 7367 50  0000 C CNN
 F 1 "Conn_02x04_Odd_Even" H 1800 7276 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_2x03_P2.54mm_Vertical_SMD" H 1750 7050 50  0001 C CNN
+F 2 "Connector_PinSocket_1.27mm:PinSocket_2x04_P1.27mm_Vertical_SMD" H 1750 7050 50  0001 C CNN
 F 3 "~" H 1750 7050 50  0001 C CNN
 	1    1750 7050
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x03_Odd_Even J11
+L Connector_Generic:Conn_02x04_Odd_Even J11
 U 1 1 5BF5C73C
 P 3550 7050
 F 0 "J11" H 3600 7367 50  0000 C CNN
 F 1 "Conn_02x04_Odd_Even" H 3700 7450 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_2x03_P2.54mm_Vertical_SMD" H 3550 7050 50  0001 C CNN
+F 2 "Connector_PinSocket_1.27mm:PinSocket_2x04_P1.27mm_Vertical_SMD" H 3550 7050 50  0001 C CNN
 F 3 "~" H 3550 7050 50  0001 C CNN
 	1    3550 7050
 	1    0    0    1   
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x03_Odd_Even J8
+L Connector_Generic:Conn_02x04_Odd_Even J8
 U 1 1 5BF716E3
 P 3550 6200
 F 0 "J8" H 3600 6600 50  0000 C CNN
 F 1 "Conn_02x04_Odd_Even" H 3600 6426 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical_SMD" H 3550 6200 50  0001 C CNN
+F 2 "Connector_PinSocket_1.27mm:PinSocket_2x04_P1.27mm_Vertical_SMD" H 3550 6200 50  0001 C CNN
 F 3 "~" H 3550 6200 50  0001 C CNN
 	1    3550 6200
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x03_Odd_Even J4
+L Connector_Generic:Conn_02x04_Odd_Even J4
 U 1 1 5BF716ED
-P 1750 6200
-F 0 "J4" H 1800 6600 50  0000 C CNN
-F 1 "Conn_02x04_Odd_Even" H 1600 6450 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical_SMD" H 1750 6200 50  0001 C CNN
-F 3 "~" H 1750 6200 50  0001 C CNN
-	1    1750 6200
+P 1750 6300
+F 0 "J4" H 1800 6700 50  0000 C CNN
+F 1 "Conn_02x04_Odd_Even" H 1600 6550 50  0000 C CNN
+F 2 "Connector_PinSocket_1.27mm:PinSocket_2x04_P1.27mm_Vertical_SMD" H 1750 6300 50  0001 C CNN
+F 3 "~" H 1750 6300 50  0001 C CNN
+	1    1750 6300
 	1    0    0    1   
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x03_Odd_Even J3
+L Connector_Generic:Conn_02x04_Odd_Even J3
 U 1 1 5BF716F7
 P 1850 6200
 F 0 "J3" H 1900 6517 50  0000 C CNN
 F 1 "Conn_02x04_Odd_Even" H 1900 6426 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical_SMD" H 1850 6200 50  0001 C CNN
+F 2 "Connector_PinSocket_1.27mm:PinSocket_2x04_P1.27mm_Vertical_SMD" H 1850 6200 50  0001 C CNN
 F 3 "~" H 1850 6200 50  0001 C CNN
 	1    1850 6200
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x03_Odd_Even J9
+L Connector_Generic:Conn_02x04_Odd_Even J9
 U 1 1 5BF71701
 P 3650 6200
 F 0 "J9" H 3700 6517 50  0000 C CNN
 F 1 "Conn_02x04_Odd_Even" H 3650 6600 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical_SMD" H 3650 6200 50  0001 C CNN
+F 2 "Connector_PinSocket_1.27mm:PinSocket_2x04_P1.27mm_Vertical_SMD" H 3650 6200 50  0001 C CNN
 F 3 "~" H 3650 6200 50  0001 C CNN
 	1    3650 6200
 	-1   0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR043
-U 1 1 5BF71731
-P 3350 6400
-F 0 "#PWR043" H 3350 6150 50  0001 C CNN
-F 1 "GND" H 3355 6227 50  0000 C CNN
-F 2 "" H 3350 6400 50  0001 C CNN
-F 3 "" H 3350 6400 50  0001 C CNN
-	1    3350 6400
-	1    0    0    -1  
 $EndComp
 $Comp
 L power:+12V #PWR025
@@ -2020,8 +2007,6 @@ Wire Wire Line
 Wire Wire Line
 	3350 6400 3350 6300
 Connection ~ 3350 6300
-Wire Wire Line
-	3350 6300 3350 6200
 $Comp
 L power:GND #PWR047
 U 1 1 5C3EAA52
@@ -2276,248 +2261,20 @@ $EndComp
 Wire Wire Line
 	1350 1250 1600 1250
 Wire Wire Line
-	2050 7150 2050 7300
-Connection ~ 1550 6950
-Connection ~ 1550 7050
-Connection ~ 2050 6950
-Connection ~ 3350 6950
-Connection ~ 3350 7050
-Connection ~ 3350 7150
-Connection ~ 3850 6950
+	2050 7150 2050 7250
 Wire Wire Line
 	1550 7200 1550 7150
-Connection ~ 1550 7150
 $Comp
 L DeeComponents:LED48x14 LED1
 U 1 1 5C45772B
-P 1050 10050
-F 0 "LED1" H 3478 9613 50  0000 L CNN
-F 1 "LED48x14" H 3478 9522 50  0000 L CNN
-F 2 "components:led_matrix_0402_48x14" H 750 10050 50  0001 C CNN
-F 3 "" H 750 10050 50  0001 C CNN
-	1    1050 10050
+P 3300 10550
+F 0 "LED1" H 5728 10113 50  0000 L CNN
+F 1 "LED48x14" H 5728 10022 50  0000 L CNN
+F 2 "thisproject:led_matrix_0402_48x14" H 3000 10550 50  0001 C CNN
+F 3 "" H 3000 10550 50  0001 C CNN
+	1    3300 10550
 	1    0    0    -1  
 $EndComp
-Text Label 1050 11050 3    24   ~ 0
-C0
-Text Label 1100 11050 3    24   ~ 0
-C1
-Text Label 1150 11050 3    24   ~ 0
-C2
-Text Label 1200 11050 3    24   ~ 0
-C3
-Text Label 1250 11050 3    24   ~ 0
-C4
-Text Label 1300 11050 3    24   ~ 0
-C5
-Text Label 1350 11050 3    24   ~ 0
-C6
-Text Label 1400 11050 3    24   ~ 0
-C7
-Text Label 1450 11050 3    24   ~ 0
-C8
-Text Label 1500 11050 3    24   ~ 0
-C9
-Text Label 1550 11050 3    24   ~ 0
-C10
-Text Label 1600 11050 3    24   ~ 0
-C11
-Text Label 1650 11050 3    24   ~ 0
-C12
-Text Label 1700 11050 3    24   ~ 0
-C13
-Text Label 1750 11050 3    24   ~ 0
-C14
-Text Label 1800 11050 3    24   ~ 0
-C15
-Text Label 1850 11050 3    24   ~ 0
-C16
-Text Label 1900 11050 3    24   ~ 0
-C17
-Text Label 1950 11050 3    24   ~ 0
-C18
-Text Label 2000 11050 3    24   ~ 0
-C19
-Text Label 2050 11050 3    24   ~ 0
-C20
-Text Label 2100 11050 3    24   ~ 0
-C21
-Text Label 2150 11050 3    24   ~ 0
-C22
-Text Label 2200 11050 3    24   ~ 0
-C23
-Text Label 2250 11050 3    24   ~ 0
-C24
-Text Label 2300 11050 3    24   ~ 0
-C25
-Text Label 2350 11050 3    24   ~ 0
-C26
-Text Label 2400 11050 3    24   ~ 0
-C27
-Text Label 2450 11050 3    24   ~ 0
-C28
-Text Label 2500 11050 3    24   ~ 0
-C29
-Text Label 2550 11050 3    24   ~ 0
-C30
-Text Label 2600 11050 3    24   ~ 0
-C31
-Text Label 2650 11050 3    24   ~ 0
-C32
-Text Label 2700 11050 3    24   ~ 0
-C33
-Text Label 2750 11050 3    24   ~ 0
-C34
-Text Label 2800 11050 3    24   ~ 0
-C35
-Text Label 2850 11050 3    24   ~ 0
-C36
-Text Label 2900 11050 3    24   ~ 0
-C37
-Text Label 2950 11050 3    24   ~ 0
-C38
-Text Label 3000 11050 3    24   ~ 0
-C39
-Text Label 3050 11050 3    24   ~ 0
-C40
-Text Label 3100 11050 3    24   ~ 0
-C41
-Text Label 3150 11050 3    24   ~ 0
-C42
-Text Label 3200 11050 3    24   ~ 0
-C43
-Text Label 3250 11050 3    24   ~ 0
-C44
-Text Label 3300 11050 3    24   ~ 0
-C45
-Text Label 3350 11050 3    24   ~ 0
-C46
-Text Label 3400 11050 3    24   ~ 0
-C47
-Text Label 1050 11050 3    24   ~ 0
-C0
-Text Label 1100 11050 3    24   ~ 0
-C1
-Text Label 1150 11050 3    24   ~ 0
-C2
-Text Label 1200 11050 3    24   ~ 0
-C3
-Text Label 1250 11050 3    24   ~ 0
-C4
-Text Label 1300 11050 3    24   ~ 0
-C5
-Text Label 1350 11050 3    24   ~ 0
-C6
-Text Label 1400 11050 3    24   ~ 0
-C7
-Text Label 1450 11050 3    24   ~ 0
-C8
-Text Label 1500 11050 3    24   ~ 0
-C9
-Text Label 1550 11050 3    24   ~ 0
-C10
-Text Label 1600 11050 3    24   ~ 0
-C11
-Text Label 1650 11050 3    24   ~ 0
-C12
-Text Label 1700 11050 3    24   ~ 0
-C13
-Text Label 1750 11050 3    24   ~ 0
-C14
-Text Label 1800 11050 3    24   ~ 0
-C15
-Text Label 1850 11050 3    24   ~ 0
-C16
-Text Label 1900 11050 3    24   ~ 0
-C17
-Text Label 1950 11050 3    24   ~ 0
-C18
-Text Label 2000 11050 3    24   ~ 0
-C19
-Text Label 2050 11050 3    24   ~ 0
-C20
-Text Label 2100 11050 3    24   ~ 0
-C21
-Text Label 2150 11050 3    24   ~ 0
-C22
-Text Label 2200 11050 3    24   ~ 0
-C23
-Text Label 2250 11050 3    24   ~ 0
-C24
-Text Label 2300 11050 3    24   ~ 0
-C25
-Text Label 2350 11050 3    24   ~ 0
-C26
-Text Label 2400 11050 3    24   ~ 0
-C27
-Text Label 2450 11050 3    24   ~ 0
-C28
-Text Label 2500 11050 3    24   ~ 0
-C29
-Text Label 2550 11050 3    24   ~ 0
-C30
-Text Label 2600 11050 3    24   ~ 0
-C31
-Text Label 2650 11050 3    24   ~ 0
-C32
-Text Label 2700 11050 3    24   ~ 0
-C33
-Text Label 2750 11050 3    24   ~ 0
-C34
-Text Label 2800 11050 3    24   ~ 0
-C35
-Text Label 2850 11050 3    24   ~ 0
-C36
-Text Label 2900 11050 3    24   ~ 0
-C37
-Text Label 2950 11050 3    24   ~ 0
-C38
-Text Label 3000 11050 3    24   ~ 0
-C39
-Text Label 3050 11050 3    24   ~ 0
-C40
-Text Label 3100 11050 3    24   ~ 0
-C41
-Text Label 3150 11050 3    24   ~ 0
-C42
-Text Label 3200 11050 3    24   ~ 0
-C43
-Text Label 3250 11050 3    24   ~ 0
-C44
-Text Label 3300 11050 3    24   ~ 0
-C45
-Text Label 3350 11050 3    24   ~ 0
-C46
-Text Label 3400 11050 3    24   ~ 0
-C47
-Text Label 750  10050 2    24   ~ 0
-R0
-Text Label 750  10100 2    24   ~ 0
-R1
-Text Label 750  10150 2    24   ~ 0
-R2
-Text Label 750  10200 2    24   ~ 0
-R3
-Text Label 750  10250 2    24   ~ 0
-R4
-Text Label 750  10300 2    24   ~ 0
-R5
-Text Label 750  10350 2    24   ~ 0
-R6
-Text Label 750  10400 2    24   ~ 0
-R7
-Text Label 750  10450 2    24   ~ 0
-R8
-Text Label 750  10500 2    24   ~ 0
-R9
-Text Label 750  10550 2    24   ~ 0
-R10
-Text Label 750  10600 2    24   ~ 0
-R11
-Text Label 750  10650 2    24   ~ 0
-R12
-Text Label 750  10700 2    24   ~ 0
-R13
 Text GLabel 4100 4300 2    50   Input ~ 0
 LED_SOUT
 Text GLabel 4100 4200 2    50   Input ~ 0
@@ -2579,13 +2336,8 @@ Wire Wire Line
 	5250 4550 5250 4700
 Wire Wire Line
 	5250 4700 5050 4700
-Text GLabel 3250 6100 0    50   Input ~ 0
+Text GLabel 1400 7450 0    50   Input ~ 0
 STATUS
-Wire Wire Line
-	3350 6100 3250 6100
-Connection ~ 3350 6100
-Connection ~ 3350 6200
-Connection ~ 3850 6100
 Wire Wire Line
 	4550 4700 4850 4700
 Wire Wire Line
@@ -2598,34 +2350,890 @@ Wire Wire Line
 $Comp
 L DeeComponents:HT16D35A U6
 U 1 1 5C089F7D
-P 1950 9300
-F 0 "U6" H 2350 9465 50  0000 C CNN
-F 1 "HT16D35A" H 2350 9374 50  0000 C CNN
-F 2 "Package_QFP:LQFP-48_7x7mm_P0.5mm" H 1950 9300 50  0001 C CNN
-F 3 "" H 1950 9300 50  0001 C CNN
-	1    1950 9300
+P 1950 9100
+F 0 "U6" H 2350 9265 50  0000 C CNN
+F 1 "HT16D35A" H 2350 9174 50  0000 C CNN
+F 2 "Package_QFP:LQFP-48_7x7mm_P0.5mm" H 1950 9100 50  0001 C CNN
+F 3 "" H 1950 9100 50  0001 C CNN
+	1    1950 9100
 	0    -1   -1   0   
 $EndComp
 $Comp
 L DeeComponents:HT16D35A U8
 U 1 1 5C0A5396
-P 6200 9300
-F 0 "U8" H 6600 9465 50  0000 C CNN
-F 1 "HT16D35A" H 6600 9374 50  0000 C CNN
-F 2 "Package_QFP:LQFP-48_7x7mm_P0.5mm" H 6200 9300 50  0001 C CNN
-F 3 "" H 6200 9300 50  0001 C CNN
-	1    6200 9300
+P 6200 9100
+F 0 "U8" H 6600 9265 50  0000 C CNN
+F 1 "HT16D35A" H 6600 9174 50  0000 C CNN
+F 2 "Package_QFP:LQFP-48_7x7mm_P0.5mm" H 6200 9100 50  0001 C CNN
+F 3 "" H 6200 9100 50  0001 C CNN
+	1    6200 9100
 	0    -1   -1   0   
 $EndComp
 $Comp
 L DeeComponents:HT16D35A U9
 U 1 1 5C0A72F5
-P 10350 9300
-F 0 "U9" H 10750 9465 50  0000 C CNN
-F 1 "HT16D35A" H 10750 9374 50  0000 C CNN
-F 2 "Package_QFP:LQFP-48_7x7mm_P0.5mm" H 10350 9300 50  0001 C CNN
-F 3 "" H 10350 9300 50  0001 C CNN
-	1    10350 9300
+P 10350 9100
+F 0 "U9" H 10750 9265 50  0000 C CNN
+F 1 "HT16D35A" H 10750 9174 50  0000 C CNN
+F 2 "Package_QFP:LQFP-48_7x7mm_P0.5mm" H 10350 9100 50  0001 C CNN
+F 3 "" H 10350 9100 50  0001 C CNN
+	1    10350 9100
 	0    -1   -1   0   
 $EndComp
+Text Label 7850 10350 1    31   ~ 0
+a0000
+Text Label 7900 10350 1    31   ~ 0
+a0001
+Text Label 7950 10350 1    31   ~ 0
+a0002
+Text Label 8000 10350 1    31   ~ 0
+a0003
+Text Label 8050 10350 1    31   ~ 0
+a0004
+Text Label 8100 10350 1    31   ~ 0
+a0005
+Text Label 8150 10350 1    31   ~ 0
+a0006
+Text Label 8200 10350 1    31   ~ 0
+a0007
+Text Label 8250 10350 1    31   ~ 0
+a0100
+Text Label 8300 10350 1    31   ~ 0
+a0101
+Text Label 8350 10350 1    31   ~ 0
+a0102
+Text Label 8400 10350 1    31   ~ 0
+a0103
+Text Label 8450 10350 1    31   ~ 0
+a0104
+Text Label 8500 10350 1    31   ~ 0
+a0105
+Text Label 8550 10350 1    31   ~ 0
+a0106
+Text Label 8600 10350 1    31   ~ 0
+a0107
+Text Label 8650 10350 1    31   ~ 0
+a0200
+Text Label 8700 10350 1    31   ~ 0
+a0201
+Text Label 8750 10350 1    31   ~ 0
+a0202
+Text Label 8800 10350 1    31   ~ 0
+a0203
+Text Label 8850 10350 1    31   ~ 0
+a0204
+Text Label 8900 10350 1    31   ~ 0
+a0205
+Text Label 8950 10350 1    31   ~ 0
+a0206
+Text Label 9000 10350 1    31   ~ 0
+a0207
+Text Label 3350 10350 1    31   ~ 0
+k0000
+Text Label 3400 10350 1    31   ~ 0
+k0001
+Text Label 3450 10350 1    31   ~ 0
+k0002
+Text Label 3500 10350 1    31   ~ 0
+k0003
+Text Label 3550 10350 1    31   ~ 0
+k0004
+Text Label 3600 10350 1    31   ~ 0
+k0005
+Text Label 3650 10350 1    31   ~ 0
+k0006
+Text Label 3700 10350 1    31   ~ 0
+k0007
+Text Label 3750 10350 1    31   ~ 0
+k0008
+Text Label 3800 10350 1    31   ~ 0
+k0009
+Text Label 3850 10350 1    31   ~ 0
+k0010
+Text Label 3900 10350 1    31   ~ 0
+k0011
+Text Label 3950 10350 1    31   ~ 0
+k0012
+Text Label 4000 10350 1    31   ~ 0
+k0013
+Text Label 4050 10350 1    31   ~ 0
+k0014
+Text Label 4100 10350 1    31   ~ 0
+k0015
+Text Label 4150 10350 1    31   ~ 0
+k0016
+Text Label 4200 10350 1    31   ~ 0
+k0017
+Text Label 4250 10350 1    31   ~ 0
+k0018
+Text Label 4300 10350 1    31   ~ 0
+k0019
+Text Label 4350 10350 1    31   ~ 0
+k0020
+Text Label 4400 10350 1    31   ~ 0
+k0021
+Text Label 4450 10350 1    31   ~ 0
+k0022
+Text Label 4500 10350 1    31   ~ 0
+k0023
+Text Label 4550 10350 1    31   ~ 0
+k0024
+Text Label 4600 10350 1    31   ~ 0
+k0025
+Text Label 4650 10350 1    31   ~ 0
+k0026
+Text Label 4700 10350 1    31   ~ 0
+k0027
+Text Label 4850 10350 1    31   ~ 0
+k0100
+Text Label 4900 10350 1    31   ~ 0
+k0101
+Text Label 4950 10350 1    31   ~ 0
+k0102
+Text Label 5000 10350 1    31   ~ 0
+k0103
+Text Label 5050 10350 1    31   ~ 0
+k0104
+Text Label 5100 10350 1    31   ~ 0
+k0105
+Text Label 5150 10350 1    31   ~ 0
+k0106
+Text Label 5200 10350 1    31   ~ 0
+k0107
+Text Label 5250 10350 1    31   ~ 0
+k0108
+Text Label 5300 10350 1    31   ~ 0
+k0109
+Text Label 5350 10350 1    31   ~ 0
+k0110
+Text Label 5400 10350 1    31   ~ 0
+k0111
+Text Label 5450 10350 1    31   ~ 0
+k0112
+Text Label 5500 10350 1    31   ~ 0
+k0113
+Text Label 5550 10350 1    31   ~ 0
+k0114
+Text Label 5600 10350 1    31   ~ 0
+k0115
+Text Label 5650 10350 1    31   ~ 0
+k0116
+Text Label 5700 10350 1    31   ~ 0
+k0117
+Text Label 5750 10350 1    31   ~ 0
+k0118
+Text Label 5800 10350 1    31   ~ 0
+k0119
+Text Label 5850 10350 1    31   ~ 0
+k0120
+Text Label 5900 10350 1    31   ~ 0
+k0121
+Text Label 5950 10350 1    31   ~ 0
+k0122
+Text Label 6000 10350 1    31   ~ 0
+k0123
+Text Label 6050 10350 1    31   ~ 0
+k0124
+Text Label 6100 10350 1    31   ~ 0
+k0125
+Text Label 6150 10350 1    31   ~ 0
+k0126
+Text Label 6200 10350 1    31   ~ 0
+k0127
+Text Label 6350 10350 1    31   ~ 0
+k0200
+Text Label 6400 10350 1    31   ~ 0
+k0201
+Text Label 6450 10350 1    31   ~ 0
+k0202
+Text Label 6500 10350 1    31   ~ 0
+k0203
+Text Label 6550 10350 1    31   ~ 0
+k0204
+Text Label 6600 10350 1    31   ~ 0
+k0205
+Text Label 6650 10350 1    31   ~ 0
+k0206
+Text Label 6700 10350 1    31   ~ 0
+k0207
+Text Label 6750 10350 1    31   ~ 0
+k0208
+Text Label 6800 10350 1    31   ~ 0
+k0209
+Text Label 6850 10350 1    31   ~ 0
+k0210
+Text Label 6900 10350 1    31   ~ 0
+k0211
+Text Label 6950 10350 1    31   ~ 0
+k0212
+Text Label 7000 10350 1    31   ~ 0
+k0213
+Text Label 7050 10350 1    31   ~ 0
+k0214
+Text Label 7100 10350 1    31   ~ 0
+k0215
+Text Label 7150 10350 1    31   ~ 0
+k0216
+Text Label 7200 10350 1    31   ~ 0
+k0217
+Text Label 7250 10350 1    31   ~ 0
+k0218
+Text Label 7300 10350 1    31   ~ 0
+k0219
+Text Label 7350 10350 1    31   ~ 0
+k0220
+Text Label 7400 10350 1    31   ~ 0
+k0221
+Text Label 7450 10350 1    31   ~ 0
+k0222
+Text Label 7500 10350 1    31   ~ 0
+k0223
+Text Label 7550 10350 1    31   ~ 0
+k0224
+Text Label 7600 10350 1    31   ~ 0
+k0225
+Text Label 7650 10350 1    31   ~ 0
+k0226
+Text Label 7700 10350 1    31   ~ 0
+k0227
+Text Label 5050 8200 1    31   ~ 0
+a0000
+Text Label 5150 8200 1    31   ~ 0
+a0001
+Text Label 5250 8200 1    31   ~ 0
+a0002
+Text Label 5350 8200 1    31   ~ 0
+a0003
+Text Label 5450 8200 1    31   ~ 0
+a0004
+Text Label 5550 8200 1    31   ~ 0
+a0005
+Text Label 5650 8200 1    31   ~ 0
+a0006
+Text Label 5750 8200 1    31   ~ 0
+a0007
+Text Label 9300 8200 1    31   ~ 0
+a0100
+Text Label 9400 8200 1    31   ~ 0
+a0101
+Text Label 9500 8200 1    31   ~ 0
+a0102
+Text Label 9600 8200 1    31   ~ 0
+a0103
+Text Label 9700 8200 1    31   ~ 0
+a0104
+Text Label 9800 8200 1    31   ~ 0
+a0105
+Text Label 9900 8200 1    31   ~ 0
+a0106
+Text Label 10000 8200 1    31   ~ 0
+a0107
+Text Label 13450 8200 1    31   ~ 0
+a0200
+Text Label 13550 8200 1    31   ~ 0
+a0201
+Text Label 13650 8200 1    31   ~ 0
+a0202
+Text Label 13750 8200 1    31   ~ 0
+a0203
+Text Label 13850 8200 1    31   ~ 0
+a0204
+Text Label 13950 8200 1    31   ~ 0
+a0205
+Text Label 14050 8200 1    31   ~ 0
+a0206
+Text Label 14150 8200 1    31   ~ 0
+a0207
+Text Label 2050 8200 1    31   ~ 0
+k0000
+Text Label 2150 8200 1    31   ~ 0
+k0001
+Text Label 2250 8200 1    31   ~ 0
+k0002
+Text Label 2350 8200 1    31   ~ 0
+k0003
+Text Label 2450 8200 1    31   ~ 0
+k0004
+Text Label 2550 8200 1    31   ~ 0
+k0005
+Text Label 2650 8200 1    31   ~ 0
+k0006
+Text Label 2750 8200 1    31   ~ 0
+k0007
+Text Label 2850 8200 1    31   ~ 0
+k0008
+Text Label 2950 8200 1    31   ~ 0
+k0009
+Text Label 3050 8200 1    31   ~ 0
+k0010
+Text Label 3150 8200 1    31   ~ 0
+k0011
+Text Label 3250 8200 1    31   ~ 0
+k0012
+Text Label 3350 8200 1    31   ~ 0
+k0013
+Text Label 3450 8200 1    31   ~ 0
+k0014
+Text Label 3550 8200 1    31   ~ 0
+k0015
+Text Label 3650 8200 1    31   ~ 0
+k0016
+Text Label 3750 8200 1    31   ~ 0
+k0017
+Text Label 3850 8200 1    31   ~ 0
+k0018
+Text Label 3950 8200 1    31   ~ 0
+k0019
+Text Label 4050 8200 1    31   ~ 0
+k0020
+Text Label 4150 8200 1    31   ~ 0
+k0021
+Text Label 4250 8200 1    31   ~ 0
+k0022
+Text Label 4350 8200 1    31   ~ 0
+k0023
+Text Label 4450 8200 1    31   ~ 0
+k0024
+Text Label 4550 8200 1    31   ~ 0
+k0025
+Text Label 4650 8200 1    31   ~ 0
+k0026
+Text Label 4750 8200 1    31   ~ 0
+k0027
+Text Label 6300 8200 1    31   ~ 0
+k0100
+Text Label 6400 8200 1    31   ~ 0
+k0101
+Text Label 6500 8200 1    31   ~ 0
+k0102
+Text Label 6600 8200 1    31   ~ 0
+k0103
+Text Label 6700 8200 1    31   ~ 0
+k0104
+Text Label 6800 8200 1    31   ~ 0
+k0105
+Text Label 6900 8200 1    31   ~ 0
+k0106
+Text Label 7000 8200 1    31   ~ 0
+k0107
+Text Label 7100 8200 1    31   ~ 0
+k0108
+Text Label 7200 8200 1    31   ~ 0
+k0109
+Text Label 7300 8200 1    31   ~ 0
+k0110
+Text Label 7400 8200 1    31   ~ 0
+k0111
+Text Label 7500 8200 1    31   ~ 0
+k0112
+Text Label 7600 8200 1    31   ~ 0
+k0113
+Text Label 7700 8200 1    31   ~ 0
+k0114
+Text Label 7800 8200 1    31   ~ 0
+k0115
+Text Label 7900 8200 1    31   ~ 0
+k0116
+Text Label 8000 8200 1    31   ~ 0
+k0117
+Text Label 8100 8200 1    31   ~ 0
+k0118
+Text Label 8200 8200 1    31   ~ 0
+k0119
+Text Label 8300 8200 1    31   ~ 0
+k0120
+Text Label 8400 8200 1    31   ~ 0
+k0121
+Text Label 8500 8200 1    31   ~ 0
+k0122
+Text Label 8600 8200 1    31   ~ 0
+k0123
+Text Label 8700 8200 1    31   ~ 0
+k0124
+Text Label 8800 8200 1    31   ~ 0
+k0125
+Text Label 8900 8200 1    31   ~ 0
+k0126
+Text Label 9000 8200 1    31   ~ 0
+k0127
+Text Label 10450 8200 1    31   ~ 0
+k0200
+Text Label 10550 8200 1    31   ~ 0
+k0201
+Text Label 10650 8200 1    31   ~ 0
+k0202
+Text Label 10750 8200 1    31   ~ 0
+k0203
+Text Label 10850 8200 1    31   ~ 0
+k0204
+Text Label 10950 8200 1    31   ~ 0
+k0205
+Text Label 11050 8200 1    31   ~ 0
+k0206
+Text Label 11150 8200 1    31   ~ 0
+k0207
+Text Label 11250 8200 1    31   ~ 0
+k0208
+Text Label 11350 8200 1    31   ~ 0
+k0209
+Text Label 11450 8200 1    31   ~ 0
+k0210
+Text Label 11550 8200 1    31   ~ 0
+k0211
+Text Label 11650 8200 1    31   ~ 0
+k0212
+Text Label 11750 8200 1    31   ~ 0
+k0213
+Text Label 11850 8200 1    31   ~ 0
+k0214
+Text Label 11950 8200 1    31   ~ 0
+k0215
+Text Label 12050 8200 1    31   ~ 0
+k0216
+Text Label 12150 8200 1    31   ~ 0
+k0217
+Text Label 12250 8200 1    31   ~ 0
+k0218
+Text Label 12350 8200 1    31   ~ 0
+k0219
+Text Label 12450 8200 1    31   ~ 0
+k0220
+Text Label 12550 8200 1    31   ~ 0
+k0221
+Text Label 12650 8200 1    31   ~ 0
+k0222
+Text Label 12750 8200 1    31   ~ 0
+k0223
+Text Label 12850 8200 1    31   ~ 0
+k0224
+Text Label 12950 8200 1    31   ~ 0
+k0225
+Text Label 13050 8200 1    31   ~ 0
+k0226
+Text Label 13150 8200 1    31   ~ 0
+k0227
+Connection ~ 2050 6400
+Connection ~ 1550 6950
+Connection ~ 1550 7050
+Connection ~ 1550 7150
+Connection ~ 2050 6950
+Connection ~ 2050 7250
+Connection ~ 3350 6100
+Connection ~ 3350 6200
+Connection ~ 3350 6400
+Connection ~ 3850 6100
+Connection ~ 3850 6400
+Connection ~ 3350 6950
+Connection ~ 3350 7050
+Connection ~ 3350 7150
+Connection ~ 3850 6950
+$Comp
+L Device:R R22
+U 1 1 5C2AB968
+P 5050 9350
+F 0 "R22" H 5120 9396 50  0000 L CNN
+F 1 "1k" H 5120 9305 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4980 9350 50  0001 C CNN
+F 3 "~" H 5050 9350 50  0001 C CNN
+	1    5050 9350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3800 9500 3800 9200
+Wire Wire Line
+	3700 9200 3700 9500
+Wire Wire Line
+	3700 9500 3800 9500
+$Comp
+L Device:R R23
+U 1 1 5C2DEDDB
+P 9300 9350
+F 0 "R23" H 9370 9396 50  0000 L CNN
+F 1 "1k" H 9370 9305 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 9230 9350 50  0001 C CNN
+F 3 "~" H 9300 9350 50  0001 C CNN
+	1    9300 9350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8050 9500 8050 9200
+Wire Wire Line
+	7950 9200 7950 9500
+Wire Wire Line
+	7950 9500 8050 9500
+$Comp
+L Device:R R24
+U 1 1 5C2FA03D
+P 13450 9350
+F 0 "R24" H 13520 9396 50  0000 L CNN
+F 1 "1k" H 13520 9305 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 13380 9350 50  0001 C CNN
+F 3 "~" H 13450 9350 50  0001 C CNN
+	1    13450 9350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12200 9500 12200 9200
+Wire Wire Line
+	12100 9200 12100 9500
+Wire Wire Line
+	12100 9500 12200 9500
+Text Label 2450 9200 3    50   ~ 0
+LD_OSC
+Text Label 2550 9200 3    50   ~ 0
+LD_SYNC
+Text Notes 2600 9350 0    50   ~ 0
+Master
+Text Label 6700 9200 3    50   ~ 0
+LD_OSC
+Text Label 6800 9200 3    50   ~ 0
+LD_SYNC
+Text Notes 6850 9350 0    50   ~ 0
+Slave
+Text Label 10850 9200 3    50   ~ 0
+LD_OSC
+Text Label 10950 9200 3    50   ~ 0
+LD_SYNC
+Text Notes 11000 9350 0    50   ~ 0
+Slave
+Text Label 13450 9600 2    50   ~ 0
+LED_VSS
+Wire Wire Line
+	13450 9500 13450 9600
+Text Label 9300 9600 2    50   ~ 0
+LED_VSS
+Wire Wire Line
+	9300 9500 9300 9600
+Text Label 5050 9600 2    50   ~ 0
+LED_VSS
+Wire Wire Line
+	5050 9500 5050 9600
+Text Label 8050 9500 0    50   ~ 0
+LED_VSS
+Text Label 3800 9500 0    50   ~ 0
+LED_VSS
+Text Label 12200 9500 0    50   ~ 0
+LED_VSS
+Wire Wire Line
+	11850 9500 11900 9500
+Wire Wire Line
+	11950 9500 11950 9200
+Wire Wire Line
+	11850 9200 11850 9500
+Text Label 11850 9500 2    50   ~ 0
+LED_VDD
+Wire Wire Line
+	7700 9500 7750 9500
+Wire Wire Line
+	7800 9500 7800 9200
+Wire Wire Line
+	7700 9200 7700 9500
+Text Label 7700 9500 2    50   ~ 0
+LED_VDD
+Wire Wire Line
+	3450 9500 3500 9500
+Wire Wire Line
+	3550 9500 3550 9200
+Wire Wire Line
+	3450 9200 3450 9500
+Text Label 3450 9500 2    50   ~ 0
+LED_VDD
+$Comp
+L Device:C C22
+U 1 1 5C490A6B
+P 3650 9550
+F 0 "C22" H 3765 9596 50  0000 L CNN
+F 1 "1u/50V" H 3765 9505 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3688 9400 50  0001 C CNN
+F 3 "~" H 3650 9550 50  0001 C CNN
+	1    3650 9550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3800 9550 3800 9500
+Connection ~ 3800 9500
+Wire Wire Line
+	3500 9550 3500 9500
+Connection ~ 3500 9500
+Wire Wire Line
+	3500 9500 3550 9500
+$Comp
+L Device:C C24
+U 1 1 5C5021F7
+P 7900 9550
+F 0 "C24" H 8015 9596 50  0000 L CNN
+F 1 "1u/50V" H 8015 9505 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7938 9400 50  0001 C CNN
+F 3 "~" H 7900 9550 50  0001 C CNN
+	1    7900 9550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8050 9550 8050 9500
+Wire Wire Line
+	7750 9550 7750 9500
+Connection ~ 7750 9500
+Wire Wire Line
+	7750 9500 7800 9500
+Connection ~ 8050 9500
+$Comp
+L Device:C C26
+U 1 1 5C51FFD4
+P 12050 9550
+F 0 "C26" H 12165 9596 50  0000 L CNN
+F 1 "1u/50V" H 12165 9505 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 12088 9400 50  0001 C CNN
+F 3 "~" H 12050 9550 50  0001 C CNN
+	1    12050 9550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	12200 9550 12200 9500
+Wire Wire Line
+	11900 9550 11900 9500
+Connection ~ 11900 9500
+Wire Wire Line
+	11900 9500 11950 9500
+Connection ~ 12200 9500
+$Comp
+L power:+3V3 #PWR018
+U 1 1 5C53E7A3
+P 4400 9550
+F 0 "#PWR018" H 4400 9400 50  0001 C CNN
+F 1 "+3V3" H 4450 9700 50  0000 C CNN
+F 2 "" H 4400 9550 50  0001 C CNN
+F 3 "" H 4400 9550 50  0001 C CNN
+	1    4400 9550
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C23
+U 1 1 5C59815E
+P 4550 9450
+F 0 "C23" H 4665 9496 50  0000 L CNN
+F 1 "1u/50V" H 4665 9405 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4588 9300 50  0001 C CNN
+F 3 "~" H 4550 9450 50  0001 C CNN
+	1    4550 9450
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR020
+U 1 1 5C59884C
+P 4700 9550
+F 0 "#PWR020" H 4700 9300 50  0001 C CNN
+F 1 "GND" H 4705 9377 50  0000 C CNN
+F 2 "" H 4700 9550 50  0001 C CNN
+F 3 "" H 4700 9550 50  0001 C CNN
+	1    4700 9550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4700 9550 4700 9450
+Wire Wire Line
+	4400 9550 4400 9450
+Wire Wire Line
+	4450 9200 4400 9200
+Wire Wire Line
+	4400 9200 4400 9450
+Connection ~ 4400 9450
+Wire Wire Line
+	4650 9200 4700 9200
+Wire Wire Line
+	4700 9200 4700 9450
+Connection ~ 4700 9450
+$Comp
+L power:+3V3 #PWR041
+U 1 1 5C6129BD
+P 8650 9550
+F 0 "#PWR041" H 8650 9400 50  0001 C CNN
+F 1 "+3V3" H 8700 9700 50  0000 C CNN
+F 2 "" H 8650 9550 50  0001 C CNN
+F 3 "" H 8650 9550 50  0001 C CNN
+	1    8650 9550
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C25
+U 1 1 5C6129C7
+P 8800 9450
+F 0 "C25" H 8915 9496 50  0000 L CNN
+F 1 "1u/50V" H 8915 9405 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 8838 9300 50  0001 C CNN
+F 3 "~" H 8800 9450 50  0001 C CNN
+	1    8800 9450
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR043
+U 1 1 5C6129D1
+P 8950 9550
+F 0 "#PWR043" H 8950 9300 50  0001 C CNN
+F 1 "GND" H 8955 9377 50  0000 C CNN
+F 2 "" H 8950 9550 50  0001 C CNN
+F 3 "" H 8950 9550 50  0001 C CNN
+	1    8950 9550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8950 9550 8950 9450
+Wire Wire Line
+	8650 9550 8650 9450
+Wire Wire Line
+	8650 9200 8650 9450
+Connection ~ 8650 9450
+Wire Wire Line
+	8950 9200 8950 9450
+Connection ~ 8950 9450
+$Comp
+L power:+3V3 #PWR049
+U 1 1 5C6343ED
+P 12800 9550
+F 0 "#PWR049" H 12800 9400 50  0001 C CNN
+F 1 "+3V3" H 12850 9700 50  0000 C CNN
+F 2 "" H 12800 9550 50  0001 C CNN
+F 3 "" H 12800 9550 50  0001 C CNN
+	1    12800 9550
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C27
+U 1 1 5C6343F7
+P 12950 9450
+F 0 "C27" H 13065 9496 50  0000 L CNN
+F 1 "1u/50V" H 13065 9405 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 12988 9300 50  0001 C CNN
+F 3 "~" H 12950 9450 50  0001 C CNN
+	1    12950 9450
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR053
+U 1 1 5C634401
+P 13100 9550
+F 0 "#PWR053" H 13100 9300 50  0001 C CNN
+F 1 "GND" H 13105 9377 50  0000 C CNN
+F 2 "" H 13100 9550 50  0001 C CNN
+F 3 "" H 13100 9550 50  0001 C CNN
+	1    13100 9550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13100 9550 13100 9450
+Wire Wire Line
+	12800 9550 12800 9450
+Wire Wire Line
+	12800 9200 12800 9450
+Connection ~ 12800 9450
+Wire Wire Line
+	13100 9200 13100 9450
+Connection ~ 13100 9450
+Wire Wire Line
+	13050 9200 13100 9200
+Wire Wire Line
+	12850 9200 12800 9200
+Wire Wire Line
+	8650 9200 8700 9200
+Wire Wire Line
+	8900 9200 8950 9200
+Wire Wire Line
+	2150 9200 2150 9900
+Wire Wire Line
+	2050 9200 2050 9900
+Text Label 2050 9900 1    50   ~ 0
+LCDSPI_DAT
+Text Label 2150 9900 1    50   ~ 0
+LCDSPI_CLK
+Wire Wire Line
+	3350 6850 2650 6850
+Text Label 2650 6850 0    50   ~ 0
+LEDSPI_CS0
+Connection ~ 3350 6850
+Text Label 850  7350 0    50   ~ 0
+LEDSPI_CS1
+Wire Wire Line
+	850  7350 850  7200
+Text Label 2650 7300 0    50   ~ 0
+LEDSPI_CS2
+Wire Wire Line
+	2650 7300 2650 7150
+Wire Wire Line
+	2250 9200 2250 9900
+Text Label 2250 9900 1    50   ~ 0
+LEDSPI_CS0
+Wire Wire Line
+	6400 9200 6400 9900
+Text Label 6500 9900 1    50   ~ 0
+LEDSPI_CS1
+Wire Wire Line
+	6300 9200 6300 9900
+Text Label 6300 9900 1    50   ~ 0
+LCDSPI_DAT
+Text Label 6400 9900 1    50   ~ 0
+LCDSPI_CLK
+Wire Wire Line
+	6500 9200 6500 9900
+Wire Wire Line
+	10550 9200 10550 9900
+Text Label 10650 9900 1    50   ~ 0
+LEDSPI_CS2
+Wire Wire Line
+	10450 9200 10450 9900
+Text Label 10450 9900 1    50   ~ 0
+LCDSPI_DAT
+Text Label 10550 9900 1    50   ~ 0
+LCDSPI_CLK
+Wire Wire Line
+	10650 9200 10650 9900
+Wire Wire Line
+	1550 6400 1550 6300
+Connection ~ 1550 6400
+Wire Wire Line
+	1550 7250 1550 7450
+Wire Wire Line
+	1550 7450 1400 7450
+Connection ~ 1550 7250
+Wire Wire Line
+	3350 6200 3350 6100
+Wire Wire Line
+	3350 6100 2650 6100
+Text Label 2650 6100 0    50   ~ 0
+LEDVSS
+Wire Wire Line
+	3350 6300 2650 6300
+Text Label 2650 6300 0    50   ~ 0
+LEDVDD
+$Comp
+L Device:Jumper_NC_Small JP1
+U 1 1 5CA3B4A0
+P 15400 1500
+F 0 "JP1" H 15500 1600 50  0000 C CNN
+F 1 "Jumper_NC_Small" H 15400 1621 50  0001 C CNN
+F 2 "components:J_0.25mm" H 15400 1500 50  0001 C CNN
+F 3 "~" H 15400 1500 50  0001 C CNN
+	1    15400 1500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15100 1500 14750 1500
+Wire Wire Line
+	15100 1700 15100 1500
+$Comp
+L Device:Jumper_NC_Small JP2
+U 1 1 5CA85371
+P 15400 2300
+F 0 "JP2" H 15500 2400 50  0000 C CNN
+F 1 "Jumper_NC_Small" H 15400 2421 50  0001 C CNN
+F 2 "components:J_0.25mm" H 15400 2300 50  0001 C CNN
+F 3 "~" H 15400 2300 50  0001 C CNN
+	1    15400 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15300 2300 15100 2300
+Connection ~ 15100 2300
+Text Label 15500 2300 0    50   ~ 0
+LEDVSS
+Text Label 15500 1500 0    50   ~ 0
+LEDVDD
 $EndSCHEMATC
