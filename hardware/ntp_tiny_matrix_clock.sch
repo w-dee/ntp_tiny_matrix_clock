@@ -1802,17 +1802,6 @@ F 3 "~" H 3550 6200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x04_Odd_Even J4
-U 1 1 5BF716ED
-P 1750 6300
-F 0 "J4" H 1800 6700 50  0000 C CNN
-F 1 "Conn_02x04_Odd_Even" H 1600 6550 50  0000 C CNN
-F 2 "Connector_PinSocket_1.27mm:PinSocket_2x04_P1.27mm_Vertical_SMD" H 1750 6300 50  0001 C CNN
-F 3 "~" H 1750 6300 50  0001 C CNN
-	1    1750 6300
-	1    0    0    1   
-$EndComp
-$Comp
 L Connector_Generic:Conn_02x04_Odd_Even J3
 U 1 1 5BF716F7
 P 1850 6200
@@ -1837,13 +1826,13 @@ $EndComp
 $Comp
 L power:+12V #PWR025
 U 1 1 5BFAE22D
-P 2150 6400
-F 0 "#PWR025" H 2150 6250 50  0001 C CNN
-F 1 "+12V" H 2165 6573 50  0000 C CNN
-F 2 "" H 2150 6400 50  0001 C CNN
-F 3 "" H 2150 6400 50  0001 C CNN
-	1    2150 6400
-	0    1    1    0   
+P 2300 6250
+F 0 "#PWR025" H 2300 6100 50  0001 C CNN
+F 1 "+12V" H 2315 6423 50  0000 C CNN
+F 2 "" H 2300 6250 50  0001 C CNN
+F 3 "" H 2300 6250 50  0001 C CNN
+	1    2300 6250
+	0    1    -1   0   
 $EndComp
 $Comp
 L power:GND #PWR026
@@ -1865,18 +1854,17 @@ Connection ~ 1550 6300
 $Comp
 L power:+3V3 #PWR040
 U 1 1 5C06C314
-P 2200 6100
-F 0 "#PWR040" H 2200 5950 50  0001 C CNN
-F 1 "+3V3" H 2215 6273 50  0000 C CNN
-F 2 "" H 2200 6100 50  0001 C CNN
-F 3 "" H 2200 6100 50  0001 C CNN
-	1    2200 6100
-	0    1    1    0   
+P 2200 6400
+F 0 "#PWR040" H 2200 6250 50  0001 C CNN
+F 1 "+3V3" H 2215 6573 50  0000 C CNN
+F 2 "" H 2200 6400 50  0001 C CNN
+F 3 "" H 2200 6400 50  0001 C CNN
+	1    2200 6400
+	0    1    -1   0   
 $EndComp
 Wire Wire Line
-	2200 6100 2050 6100
+	2200 6400 2050 6400
 Connection ~ 2050 6100
-Connection ~ 2050 6200
 Text GLabel 1300 6950 0    60   Input ~ 0
 E_AIN
 Text GLabel 1300 7050 0    60   Input ~ 0
@@ -2010,12 +1998,12 @@ Connection ~ 3350 6300
 $Comp
 L power:GND #PWR047
 U 1 1 5C3EAA52
-P 2050 7300
-F 0 "#PWR047" H 2050 7050 50  0001 C CNN
-F 1 "GND" H 2055 7127 50  0000 C CNN
-F 2 "" H 2050 7300 50  0001 C CNN
-F 3 "" H 2050 7300 50  0001 C CNN
-	1    2050 7300
+P 2050 7250
+F 0 "#PWR047" H 2050 7000 50  0001 C CNN
+F 1 "GND" H 2055 7077 50  0000 C CNN
+F 2 "" H 2050 7250 50  0001 C CNN
+F 3 "" H 2050 7250 50  0001 C CNN
+	1    2050 7250
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -2029,8 +2017,6 @@ F 3 "" H 1350 6100 50  0001 C CNN
 	1    1350 6100
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	2150 6400 2050 6400
 Connection ~ 11600 1400
 Wire Wire Line
 	11600 1400 11950 1400
@@ -2105,19 +2091,13 @@ Wire Wire Line
 	15250 6750 14500 6750
 Wire Wire Line
 	1550 7200 850  7200
-Wire Wire Line
-	3350 7150 2650 7150
-Wire Wire Line
-	3350 7050 2650 7050
-Wire Wire Line
-	3350 6950 2650 6950
 Text Label 850  7200 0    50   ~ 0
 LCDSPI_CS
-Text Label 2650 7150 0    50   ~ 0
+Text Label 2550 6950 0    50   ~ 0
 LCDSPI_D~C
-Text Label 2650 6950 0    50   ~ 0
+Text Label 2550 7150 0    50   ~ 0
 LCDSPI_DAT
-Text Label 2650 7050 0    50   ~ 0
+Text Label 2550 7050 0    50   ~ 0
 LCDSPI_CLK
 $Comp
 L power:GND #PWR0107
@@ -2150,13 +2130,7 @@ F 3 "" H 3850 7250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2050 6200 2050 6100
-Wire Wire Line
 	1550 6200 1550 6100
-Connection ~ 1550 6200
-Wire Wire Line
-	2050 6400 2050 6300
-Connection ~ 2050 6300
 Connection ~ 2050 7050
 Connection ~ 2050 7150
 Wire Wire Line
@@ -2812,7 +2786,6 @@ Text Label 13050 8200 1    31   ~ 0
 k0226
 Text Label 13150 8200 1    31   ~ 0
 k0227
-Connection ~ 2050 6400
 Connection ~ 1550 6950
 Connection ~ 1550 7050
 Connection ~ 1550 7150
@@ -2823,9 +2796,6 @@ Connection ~ 3350 6200
 Connection ~ 3350 6400
 Connection ~ 3850 6100
 Connection ~ 3850 6400
-Connection ~ 3350 6950
-Connection ~ 3350 7050
-Connection ~ 3350 7150
 Connection ~ 3850 6950
 $Comp
 L Device:R R22
@@ -3153,10 +3123,8 @@ Text Label 850  7350 0    50   ~ 0
 LEDSPI_CS1
 Wire Wire Line
 	850  7350 850  7200
-Text Label 2650 7300 0    50   ~ 0
+Text Label 2500 7300 0    50   ~ 0
 LEDSPI_CS2
-Wire Wire Line
-	2650 7300 2650 7150
 Wire Wire Line
 	2250 9200 2250 9900
 Text Label 2250 9900 1    50   ~ 0
@@ -3187,7 +3155,6 @@ Wire Wire Line
 	10650 9200 10650 9900
 Wire Wire Line
 	1550 6400 1550 6300
-Connection ~ 1550 6400
 Wire Wire Line
 	1550 7250 1550 7450
 Wire Wire Line
@@ -3236,4 +3203,56 @@ Text Label 15500 2300 0    50   ~ 0
 LEDVSS
 Text Label 15500 1500 0    50   ~ 0
 LEDVDD
+Wire Wire Line
+	2500 6950 2500 7300
+Wire Wire Line
+	2500 6950 3350 6950
+Connection ~ 3350 6950
+Wire Wire Line
+	2550 7050 3350 7050
+Connection ~ 3350 7050
+Wire Wire Line
+	2550 7150 3350 7150
+Connection ~ 3350 7150
+Connection ~ 1550 6200
+Connection ~ 1550 6400
+$Comp
+L Connector_Generic:Conn_02x04_Odd_Even J4
+U 1 1 5BF716ED
+P 1750 6300
+F 0 "J4" H 1800 6700 50  0000 C CNN
+F 1 "Conn_02x04_Odd_Even" H 1600 6550 50  0000 C CNN
+F 2 "Connector_PinSocket_1.27mm:PinSocket_2x04_P1.27mm_Vertical_SMD" H 1750 6300 50  0001 C CNN
+F 3 "~" H 1750 6300 50  0001 C CNN
+	1    1750 6300
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	2300 6250 2250 6250
+Wire Wire Line
+	2250 6250 2250 6300
+Wire Wire Line
+	2250 6300 2050 6300
+Connection ~ 2050 6200
+Text Label 2200 6050 0    50   ~ 0
+LED_VSS
+Text Label 2200 5950 0    50   ~ 0
+LED_VDD
+Wire Wire Line
+	2200 6050 2150 6050
+Wire Wire Line
+	2150 6050 2150 6200
+Wire Wire Line
+	2150 6200 2050 6200
+Connection ~ 2050 6300
+Wire Wire Line
+	2050 6100 2100 6100
+Wire Wire Line
+	2100 6100 2100 5950
+Wire Wire Line
+	2100 5950 2200 5950
+Connection ~ 2050 6400
+Wire Wire Line
+	3850 6850 3850 6950
+Connection ~ 3850 6850
 $EndSCHEMATC
