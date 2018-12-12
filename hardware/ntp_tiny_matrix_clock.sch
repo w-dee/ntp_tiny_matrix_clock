@@ -1865,14 +1865,12 @@ $EndComp
 Wire Wire Line
 	2200 6400 2050 6400
 Connection ~ 2050 6100
-Text GLabel 1300 6950 0    60   Input ~ 0
+Text GLabel 1350 7250 0    60   Input ~ 0
 E_AIN
-Text GLabel 1300 7050 0    60   Input ~ 0
+Text GLabel 3950 6100 2    60   Input ~ 0
 E_BUTTON
 Wire Wire Line
 	1550 6950 1300 6950
-Wire Wire Line
-	1300 7050 1550 7050
 Text Label 5450 1100 0    50   ~ 0
 VIN
 Wire Wire Line
@@ -2090,8 +2088,8 @@ Connection ~ 15250 6750
 Wire Wire Line
 	15250 6750 14500 6750
 Wire Wire Line
-	1550 7200 850  7200
-Text Label 850  7200 0    50   ~ 0
+	3850 7150 4550 7150
+Text Label 4550 7150 2    50   ~ 0
 LCDSPI_CS
 Text Label 2550 6950 0    50   ~ 0
 LCDSPI_D~C
@@ -2112,35 +2110,26 @@ F 3 "" H 3850 6400 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3850 6400 3850 6300
-Connection ~ 3850 6200
-Wire Wire Line
-	3850 6200 3850 6100
 Connection ~ 3850 6300
-Wire Wire Line
-	3850 6300 3850 6200
 $Comp
 L power:GND #PWR0108
 U 1 1 5C12F68B
-P 3850 7250
-F 0 "#PWR0108" H 3850 7000 50  0001 C CNN
-F 1 "GND" H 3855 7077 50  0000 C CNN
-F 2 "" H 3850 7250 50  0001 C CNN
-F 3 "" H 3850 7250 50  0001 C CNN
-	1    3850 7250
-	1    0    0    -1  
+P 3850 6850
+F 0 "#PWR0108" H 3850 6600 50  0001 C CNN
+F 1 "GND" H 3855 6677 50  0000 C CNN
+F 2 "" H 3850 6850 50  0001 C CNN
+F 3 "" H 3850 6850 50  0001 C CNN
+	1    3850 6850
+	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	1550 6200 1550 6100
 Connection ~ 2050 7050
 Connection ~ 2050 7150
-Wire Wire Line
-	3850 7250 3850 7150
 Connection ~ 3850 7050
 Wire Wire Line
 	3850 7050 3850 6950
 Connection ~ 3850 7150
-Wire Wire Line
-	3850 7150 3850 7050
 Wire Wire Line
 	2050 7050 2050 6950
 Wire Wire Line
@@ -2236,8 +2225,6 @@ Wire Wire Line
 	1350 1250 1600 1250
 Wire Wire Line
 	2050 7150 2050 7250
-Wire Wire Line
-	1550 7200 1550 7150
 $Comp
 L DeeComponents:LED48x14 LED1
 U 1 1 5C45772B
@@ -2310,7 +2297,7 @@ Wire Wire Line
 	5250 4550 5250 4700
 Wire Wire Line
 	5250 4700 5050 4700
-Text GLabel 1400 7450 0    50   Input ~ 0
+Text GLabel 3950 6200 2    50   Input ~ 0
 STATUS
 Wire Wire Line
 	4550 4700 4850 4700
@@ -2787,14 +2774,11 @@ k0226
 Text Label 13150 8200 1    31   ~ 0
 k0227
 Connection ~ 1550 6950
-Connection ~ 1550 7050
-Connection ~ 1550 7150
 Connection ~ 2050 6950
 Connection ~ 2050 7250
 Connection ~ 3350 6100
 Connection ~ 3350 6200
 Connection ~ 3350 6400
-Connection ~ 3850 6100
 Connection ~ 3850 6400
 Connection ~ 3850 6950
 $Comp
@@ -3119,10 +3103,10 @@ Wire Wire Line
 Text Label 2650 6850 0    50   ~ 0
 LEDSPI_CS0
 Connection ~ 3350 6850
-Text Label 850  7350 0    50   ~ 0
+Text Label 4550 7000 2    50   ~ 0
 LEDSPI_CS1
 Wire Wire Line
-	850  7350 850  7200
+	4550 7000 4550 7150
 Text Label 2500 7300 0    50   ~ 0
 LEDSPI_CS2
 Wire Wire Line
@@ -3156,20 +3140,7 @@ Wire Wire Line
 Wire Wire Line
 	1550 6400 1550 6300
 Wire Wire Line
-	1550 7250 1550 7450
-Wire Wire Line
-	1550 7450 1400 7450
-Connection ~ 1550 7250
-Wire Wire Line
 	3350 6200 3350 6100
-Wire Wire Line
-	3350 6100 2650 6100
-Text Label 2650 6100 0    50   ~ 0
-LEDVSS
-Wire Wire Line
-	3350 6300 2650 6300
-Text Label 2650 6300 0    50   ~ 0
-LEDVDD
 $Comp
 L Device:Jumper_NC_Small JP1
 U 1 1 5CA3B4A0
@@ -3255,4 +3226,43 @@ Connection ~ 2050 6400
 Wire Wire Line
 	3850 6850 3850 6950
 Connection ~ 3850 6850
+Wire Wire Line
+	3950 6100 3850 6100
+Connection ~ 3850 6100
+Wire Wire Line
+	3950 6200 3850 6200
+Connection ~ 3850 6200
+Wire Wire Line
+	1550 7050 1550 7150
+Connection ~ 1550 7050
+Connection ~ 1550 7150
+$Comp
+L power:GND #PWR054
+U 1 1 5C31DCEF
+P 1300 6950
+F 0 "#PWR054" H 1300 6700 50  0001 C CNN
+F 1 "GND" H 1305 6777 50  0000 C CNN
+F 2 "" H 1300 6950 50  0001 C CNN
+F 3 "" H 1300 6950 50  0001 C CNN
+	1    1300 6950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5C31FBF2
+P 3350 6400
+F 0 "#PWR?" H 3350 6150 50  0001 C CNN
+F 1 "GND" H 3355 6227 50  0000 C CNN
+F 2 "" H 3350 6400 50  0001 C CNN
+F 3 "" H 3350 6400 50  0001 C CNN
+	1    3350 6400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3350 6300 3350 6200
+Wire Wire Line
+	1550 7050 1550 6950
+Wire Wire Line
+	1550 7250 1350 7250
+Connection ~ 1550 7250
 $EndSCHEMATC
